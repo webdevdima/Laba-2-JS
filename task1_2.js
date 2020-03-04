@@ -1,7 +1,3 @@
-function returnArgumentsArray() {
-	var result = [];
-	for (var i = 0; i < arguments.length; i++) {
-	    result[i] = arguments[i];
-	}
-	return result;
+function defaultParameterValue(a, b = 5) {
+	return a * b;
 }
